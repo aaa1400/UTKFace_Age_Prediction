@@ -1,0 +1,52 @@
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset and generated splits
+dataset/
+splits/
+
+# Local and temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Unnecessary models
+models/age_prediction_initial.keras
+models/age_prediction_pilot.keras
+
+# Per-image prediction files
+models/test_predictions.csv
+models/baseline_test_predictions.csv
+models/finetuned_test_predictions.csv
+
+# Local dataset metadata and validation reports
+utkface_metadata.csv
+invalid_files.txt
+invalid_images_report.csv
+valid_images_report.csv
+train_history.txt
+
+# Local test image
+test_face.jpg
